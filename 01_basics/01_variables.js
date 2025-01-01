@@ -8,7 +8,13 @@ accountEmail = "pratikgoyal9@new.com";
 accountPassword = "09765";
 accountCity = "Udaipur";
 
-console.table([accountId, accountEmail, accountPassword, accountCity, accountState]);   // accountState will be logged as undefined
+console.table([
+  accountId,
+  accountEmail,
+  accountPassword,
+  accountCity,
+  accountState,
+]); // accountState will be logged as undefined
 
 /* 
 Notes:

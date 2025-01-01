@@ -23,27 +23,27 @@ const isProfessional = true
  */
 
 // bigint
-const bigNumber = 1234567890n   // BigInt
-console.log(typeof bigNumber);      // bigint
+const bigNumber = 1234567890n; // BigInt
+console.log(typeof bigNumber); // bigint
 
 // symbol
-const id = Symbol('123');
-const anotherId = Symbol('123');
-console.log(typeof id);     // symbol
-console.log(id === anotherId);      // false
+const id = Symbol("123");
+const anotherId = Symbol("123");
+console.log(typeof id); // symbol
+console.log(id === anotherId); // false
 
 // array
-const marvelHeroes = ["Batman", "Superman", "Spiderman"]
-console.log(typeof marvelHeroes);   // Object 
+const marvelHeroes = ["Batman", "Superman", "Spiderman"];
+console.log(typeof marvelHeroes); // Object
 
 // Object
 let myObj = {
-    name: "Pratik",
-    age: 18
-}
+  name: "Pratik",
+  age: 18,
+};
 
 // variable function
-const myFunction = function() {
-    console.log("Hello function");
-}
-console.log(typeof myFunction);   // returns "function" but aka Object function
+const myFunction = function () {
+  console.log("Hello function");
+};
+console.log(typeof myFunction); // returns "function" but aka Object function

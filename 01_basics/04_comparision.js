@@ -1,9 +1,9 @@
-console.log("2" < 1);   // false
-console.log("02" < 1);  // false
+console.log("2" < 1); // false
+console.log("02" < 1); // false
 
-console.log(null <= 0);     // true
-console.log(null >= 0);     // true
-console.log(null == 0);     // false
+console.log(null <= 0); // true
+console.log(null >= 0); // true
+console.log(null == 0); // false
 
 /*
 comparision: < > <= >=
@@ -17,5 +17,5 @@ equality: ==
 1. Use strict operators in JS
 */
 
-console.log("2" == 2);      // true
-console.log("2" === 2);     // false due to check on the type as well
+console.log("2" == 2); // true
+console.log("2" === 2); // false due to check on the type as well
