@@ -1,1 +1,5 @@
 .DS_Store
+.hintrc
+01_basics/node_modules/
+02_basics/node_modules/
+
