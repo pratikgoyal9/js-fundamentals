@@ -60,6 +60,22 @@ countFn();
 
 /* -------------------------------------------------------------------------------- */
 
+// ATM example
+const atm = function (initialBalance) {
+  function withdraw(amount) {
+    if (amount > initialBalance) {
+      return "You don't have enough balance";
+    } else {
+      const newBalance = initialBalance - amount;
+      return newBalance;
+    }
+  }
+  return withdraw;
+};
+
+const pratikAtm = atm(2000);
+console.log(pratikAtm(200));
+
 /* ----------Currying use case
 
 We need to ensure all the parameters i.e. a, b, c are available before doing the sum operation. To ensure this, we can use currying method
