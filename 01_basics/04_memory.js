@@ -14,11 +14,10 @@ anotherName = "Rishabh";
 
 console.table([myYoutubeName, anotherName]);
 
-
 // heap example
 let userOne = {
-    name: "Pratik"
-}
+  name: "Pratik",
+};
 
 let userTwo = userOne;
 userTwo.name = "Rishabh";

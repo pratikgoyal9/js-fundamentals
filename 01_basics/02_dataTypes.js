@@ -1,11 +1,10 @@
-"use strict";   // treat all JS code as newer version
+"use strict"; // treat all JS code as newer version
 
 const age = 33;
 
-console.log(typeof age);    // returns number
-console.log(typeof undefined);  // returns undefined
-console.log(typeof null);   // returns object
-
+console.log(typeof age); // returns number
+console.log(typeof undefined); // returns undefined
+console.log(typeof null); // returns object
 
 /*
 Notes:
