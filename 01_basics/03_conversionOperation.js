@@ -9,14 +9,14 @@ let numberInScore2 = Number(score2);
 console.log(numberInScore2); // NaN
 console.log(typeof numberInScore1);  // number
 
-let score3 = null;
+let score3 = undefined;
 let numberInScore3 = Number(score3);
-console.log(numberInScore3); // 0
+console.log(numberInScore3); // NaN
 console.log(typeof numberInScore3);  // number
 
-let score4 = undefined;
+let score4 = null;
 let numberInScore4 = Number(score4);
-console.log(numberInScore4); // NaN
+console.log(numberInScore4); // 0
 console.log(typeof numberInScore4);  // number
 
 let score5 = true;
