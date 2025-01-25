@@ -8,13 +8,13 @@ accountEmail = "pratikgoyal9@new.com";
 accountPassword = "09765";
 accountCity = "Udaipur";
 
-console.table([accountId, accountEmail, accountPassword, accountCity, accountState]);
+console.table([accountId, accountEmail, accountPassword, accountCity, accountState]);   // accountState will be logged as undefined
 
 /* 
 Notes:
 
-accountId = 11111 // this will throw incorrect assignment error
+accountId = 11111 // this will throw TypeError: Assignment to constant variable
 
 Try not to use var because of issue in block scope and functional scope
 
- */ 
+ */
