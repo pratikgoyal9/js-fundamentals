@@ -1,9 +1,9 @@
 console.log(2 + 2);
 console.log(2 - 2);
 console.log(2 * 2);
-console.log(2 ** 3);
+console.log(2 ** 3);    // 8
 console.log(2 / 2);
-console.log(5 % 2);
+console.log(5 % 2);     // 1
 
 let str1 = "hello";
 let str2 = " Pratik";
@@ -21,7 +21,7 @@ console.log(3 + 4 * 5 % 3); // M < Mo < Ad
 console.log((3 + 4) * (5 % 3)); //14... better to use paranthesis and then, data brackets takes over
 
 console.log(+true);     //1.. but bad practice 
-console.log(+"");   //bad practice
+console.log(+"");   //0.. bad practice
 
 // prefix and postfix
 let a = 3;
