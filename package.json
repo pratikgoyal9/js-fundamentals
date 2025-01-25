@@ -1,8 +1,7 @@
 {
-  "name": "01_basics",
+  "name": "learn_js",
   "version": "1.0.0",
   "description": "",
-  "main": "01_variables.js",
   "scripts": {
     "format": "prettier --write ."
   },
