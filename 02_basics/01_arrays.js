@@ -25,7 +25,7 @@ console.log(newArray1); // 1,2,dog,true,5
 /* 
 1. slice() helps to return the part of the array. Syntax: arrayName.slice(2, 5)
 1. Start index would include the start.
-1. End index would include the end - 1. Ex. arrayName.slice(2, 5). It will consider from 2 to 4
+1. End index would include the (endIndex - 1). Ex. arrayName.slice(2, 5). It will consider from 2 to 4
 1. When end index is not mentioned, it will consider the last index of the array. Ex. arrayName.slice(2)
 1. When start index is also not mentioned, it wil return the original array. Ex. arrayName.slice()
 1. Does not modify the original array
@@ -53,7 +53,7 @@ console.log("Original array after splice: ", anotherArray); // [ 1, 5, 6 ]
 console.log(splicedArray); // [ 2, 3, 4 ]
 
 /* Notes:
-1. if array is declared using, it cannot be reassigned 
+1. if array is declared, it cannot be reassigned 
 1. However, values can be changed or added to the array or deleted or changed
 1. Arrays in JS are homoegenous. It can also contain different types of data types
 */
