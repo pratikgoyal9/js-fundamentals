@@ -21,6 +21,15 @@ Notes:
 
 accountId = 11111 // this will throw TypeError: Assignment to constant variable
 
-Try not to use var because of issue in block scope and functional scope
+1. var does not need to initialised always
+1. var is loosely typed. var can be reassigned. It can be declared as string and changed to number dynamically
+1. var can be used outside its scope as well whereas let and const cannot be
 
+1. let does not need to initialised always
+1. let is loosely typed. let can be reassigned. It can be declared as string and changed to number dynamically
+1. let is local
+
+1. const must be always initialised
+1. const cannot be reassigned any value
+1. const is local
  */
