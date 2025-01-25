@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="block">
+      <p class="paragraph">Welcome to my website</p>
+    </nav>
+    <h3>This is another div</h3>
+    <div class="block">
+      <h4 id="name-block">
+        Hey there, My name is <span id="username">Pratik G</span>
+      </h4>
+      <p class="paragraph">Here is code for you</p>
+      <pre><code>Hi there!</code></pre>
+    </div>
+    <div id="my-container"></div>
+    <button id="click-button">Click me</button>
+  </body>
+  <script>
+    /*
+
+    Synchronous task
+    1. It executes one after another by waiting for each statement to finish
+    1. Runs top to bottom in sync
+
+    Asynchronous task
+    1. It executes one after another without waiting for code to finish
+    1. It returns `Promise` that it will finish the task
+    1. `Promise` final states are fulfilled or rejected
+    1. Can be declared using `async` keyword.
+        1. If used, we should declare request with `await`
+        1. When used, it will wait for promise to finish and return the result
+        1. If not used, it won't wait for request to finish
+    */
+
+    // Ex. of sync task
+    let a = 10;
+    let b = 20;
+    console.log(a + b);
+
+    // Ex. of async task
+    let c = 1;
+    const result = fetch("https://jsonplaceholder.typicode.com/posts"); // initiates a network request and returns a `Promise`
+
+    async function getServerData() {
+      let d = 1;
+      let e = 4;
+      const result = await fetch("https://jsonplaceholder.typicode.com/posts"); // initiates a network request and returns a `Promise`
+      console.log(await result.json()); // use await to return data in json format else will return `Promise`
+    }
+    getServerData();
+    console.log(c); // will be executed before because getServerData() is a async function
+
+    // another way to use promise in async way
+    fetch("https://jsonplaceholder.typicode.com/posts")
+      .then((data) => {
+        console.log(data);
+      })
+      .catch((error) => {
+        console.log(error);
+      })
+      .finally(() => console.log("Finally"));
+  </script>
+</html>
