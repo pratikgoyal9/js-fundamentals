@@ -13,6 +13,14 @@ let str3 = "1" + 2;
 console.log(str3); // 12
 console.log(typeof str3); // string
 
+let str4 = "11" * 1;
+console.log(str4); // 11
+console.log(typeof str4); // number
+
+// string + string = string
+// string + number = string
+// string * number = number
+
 console.log(1 + 2 + "2"); // 32.. started from left to right and then as a string
 console.log("1" + 2 + 2); // 122.. started from left to right because string is in first
 

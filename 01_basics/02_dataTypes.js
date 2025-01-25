@@ -21,14 +21,27 @@ string => "" or ''
 
 boolean => true or false
 
-null    // it is a standalone value or representation of empty value. 
+null    // Represents intentional absence of any object value. It takes some space is memory
 // For ex, we request location temperature from server, because of error, sever returns empty rather than 0
 
-undefined   // variable is declared but value is not assigned 
+undefined   // Represents a variable declared but not assigned a value. It does very less space in memory
 
 symbol
 
 object
+// Define an object
+const person = {
+  name: "Pratik",
+  age: 33,
+  isStudent: false,
+};
 
+// Add new property
+person.country = "India";
+console.log(person.country); // "India"
+
+// Access properties
+console.log(person.name); // "Pratik"
+console.log(person.age);  // 30
 
 */
